@@ -9,12 +9,13 @@ df = pd.read_csv(file_path)
 systems_names = df["solarSystemID"].dropna().astype(int).tolist()
 security_dict = df.set_index("solarSystemID")["security"].to_dict()
 
+#translate system name to id 
 def name_to_id(name):
     for _, row in df.iterrows():
         if row["solarSystemName"] == name:
             return int(row["solarSystemID"])
     return None
-
+#translate system id to name
 def id_to_name(id):
     for _, row in df.iterrows():
         if int(row["solarSystemID"]) == id:
@@ -118,7 +119,7 @@ else:
     shortest_path, shortest_distance = dijkstra(generate_route_type(route_type), system_A, system_B)
 
     if shortest_distance == float('inf'):
-        print("Ścieżka nie została znaleziona.")
+        print("Path not found.")
     else:
         print(f"Trasa z {id_to_name(system_A)} do {id_to_name(system_B)}:")
         system_counter = 0
