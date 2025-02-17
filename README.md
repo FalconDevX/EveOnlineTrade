@@ -19,13 +19,6 @@
 <li>✅ <strong>Real-time 3D map integration</strong> <em>(if applicable)</em>.</li>
 </ul>
 
-<h2>📜 Requirements</h2>
-<ul>
-<li>JavaScript (React for frontend, Three.js for 3D visualization)</li>
-<li>Backend in Node.js (or alternative API integration)</li>
-<li>EVE Online API for system and security data</li>
-</ul>
-
 <h2>🚀 Getting Started</h2>
 <ol>
 <li><strong>Clone the repository</strong>:
