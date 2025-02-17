@@ -1,6 +1,6 @@
 <h1>EVE Online 3D Map Route Finder 🚀</h1>
 
-<p>This project allows users to calculate the optimal route between solar systems in the <strong>EVE Online 3D map</strong>. The user can choose between three different routing options:</p>
+<p>This project allows users to calculate the optimal route between solar systems in the <strong>EVE Online 3D map</strong>. The user can choose between three different routing options</p>
 
 <h2>🛣 Routing Options</h2>
 <ul>
